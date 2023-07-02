@@ -113,6 +113,7 @@ const copyToClipboard = () =>{
     const text = document.getElementById('pass').value
     navigator.clipboard.writeText(text)
     .then(() => console.log('Text copied to clipboard'))
+    .then(()=>alert('copied to clipboard !!'))
     .catch(error => console.error('Error copying text to clipboard:', error));
   }
   document.getElementById('copy').addEventListener('click',copyToClipboard)
