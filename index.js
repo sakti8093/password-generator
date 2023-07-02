@@ -49,6 +49,7 @@ document.getElementById('btn').addEventListener('click',(e)=>{
 
         if(!upperCase && !lowerCase && !includeNumbers && !includeSymbols){
             alert("Atleast select one check box");
+            return
         }
 
         if(upperCase){
