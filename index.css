@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+body {
+    font-family: 'Space Mono', monospace;
+}
+#pass{
+    background-color: #24232B;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    margin-top: 30px;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+#charctersLength{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    margin-top: 20px;
+    background-color: #A4FFAF;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#charctersLength::-webkit-slider-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 26px;
+    height: 26px;
+    background: #E6E5EB;
+    border-radius: 50%;
+}
+
+.length {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#range {
+    color: #A4FFAF;
+    font-size: 28px;
+}
+
+input[type='checkbox']{
+    margin-top: 20px;
+    width: 13px;
+    height: 12px;
+    margin-right: 22px;
+    accent-color: #A4FFAF;
+}
+
+button {
+    background-color: #A4FFAF;
+    width: 100%;
+    height: 60px;
+}
+
+body {
+    background-color: #0C0B10;
+    width: 100%;
+    height: 100vh;
+    overflow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background-color: #24232B;
+    padding: 20px;
+}
+
+.allCheckbox {
+    margin-top: 20px;
+}
+.heading{
+    text-align: center;
+    color: #7E7C89;
+    font-size: 19px;
+}
+
+.container {
+    width: 480px;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+.password {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+}
+
+
+.strength {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #18171F;
+    color: #82808E;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.strengthBox{
+    display: flex;
+    gap: 20px;
+}
+
+.strengthBox > div {
+    height:22px;
+    width: 10px;
+    border: 2px solid white;
+}
+
+.box {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
