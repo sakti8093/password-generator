@@ -107,3 +107,12 @@ const randomIndex = (length )=>{
     return Math.floor(Math.random() * length);
 }
 
+// copied to clipboard
+const copyToClipboard = () =>{
+    // Get the text field
+    const text = document.getElementById('pass').value
+    navigator.clipboard.writeText(text)
+    .then(() => console.log('Text copied to clipboard'))
+    .catch(error => console.error('Error copying text to clipboard:', error));
+  }
+  document.getElementById('copy').addEventListener('click',copyToClipboard)

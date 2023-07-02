@@ -11,7 +11,6 @@ body {
     width: 100%;
     padding: 10px;
     outline: none;
-    margin-top: 30px;
     border: none;
     font-size: 28px;
     color: #FFFFFF;
@@ -133,4 +132,15 @@ button {
     margin-top: 30px;
 }
 
+.pass-container {
+    margin-top: 30px;
+    position: relative;
+    border: 1px solid white;
+}
+
+.pass-container img {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
 
